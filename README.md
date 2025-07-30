@@ -2,9 +2,6 @@
 * Course [link](https://www.coursera.org/learn/build-a-computer)
 * [Web-based IDE](https://nand2tetris.github.io/web-ide/chip/).
 
-* Units:
-		[[Unit 1 Boolean functions and Gate logic]]
-
 
 ## Key concepts
 
