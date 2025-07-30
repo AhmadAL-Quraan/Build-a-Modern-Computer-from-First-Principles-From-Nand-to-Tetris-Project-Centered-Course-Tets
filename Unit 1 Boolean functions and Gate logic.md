@@ -2,8 +2,8 @@ We will start with a brief introduction of Boolean algebra, and learn how Boolea
 
 * This unit have 8 chapters and ends with a project:
 	1) [Unit 1.1 Boolean Logic](#unit-11-boolean-logic)
-	2) #Unit 1.2 Boolean Functions Synthesis
-	3) #Unit 1.3 Logic Gates
+	2) [Unit 1.2 Boolean Functions Synthesis](#unit-12-boolean-functions-synthesis)
+	3) [Unit 1.3 Logic Gates](#unit-13-logic-gates)
 	4) [[Unit 1.4]]
 	5) [[Unit 1.5]]
 	6)  [[Unit 1.6]]
