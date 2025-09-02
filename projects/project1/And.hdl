@@ -1,0 +1,16 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/1/And.hdl
+/**
+ * Adds three 16-bit values.
+ */
+CHIP And{
+     IN a,b;
+     OUT out;
+    //// Replace this comment with your code.
+    PARTS:
+    Nand(a=a,b=b,out=aNandb);
+    Nand(a=aNandb,b=aNandb,out=out);
+    
+}
