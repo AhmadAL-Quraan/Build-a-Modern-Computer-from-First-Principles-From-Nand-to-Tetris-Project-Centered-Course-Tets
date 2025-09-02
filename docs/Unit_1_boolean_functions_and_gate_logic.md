@@ -20,7 +20,7 @@ We will start with a brief introduction of Boolean algebra, and learn how Boolea
 # Unit 1.1 Boolean Logic
 
 * I have been introduced to Boolean Identities, which are some laws that applied when you have some expressions in boolean algebra.
-![screenshot-20250729-182907.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250729-182907.png)
+![screenshot-20250729-182907.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot_20250729_182907.png)
  * So if we have this boolean algebra, this will the solution (boolean identities) for it .
  
  ![screenshot-20250729-184835.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250729-184835.png)
