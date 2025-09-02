@@ -20,10 +20,10 @@ We will start with a brief introduction of Boolean algebra, and learn how Boolea
 # Unit 1.1 Boolean Logic
 
 * I have been introduced to Boolean Identities, which are some laws that applied when you have some expressions in boolean algebra.
-![screenshot-20250729-182907.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250729-182907.png)
+![screenshot-20250729-182907.png](/enveloppe/pictures_folder/screenshot-20250729-182907.png)
  * So if we have this boolean algebra, this will the solution (boolean identities) for it .
  
- ![screenshot-20250729-184835.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250729-184835.png)
+ ![screenshot-20250729-184835.png](/enveloppe/pictures_folder/screenshot-20250729-184835.png)
 
 
 ### Boolean symbols 
@@ -55,7 +55,7 @@ We will start with a brief introduction of Boolean algebra, and learn how Boolea
 * **Goal:**  Find the **simplest** or **most efficient** Boolean expression (minimal number of gates, variables, or cost).
 * **Input:** Usually, you’re given a **truth table**, **verbal description**, or **set of requirements** that define how outputs depend on inputs.
 * Ex:
-![screenshot-20250729-212455.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250729-212455.png)
+![screenshot-20250729-212455.png](/enveloppe/pictures_folder/screenshot-20250729-212455.png)
 * 
 * Now for each 1 in (f) column we will generate a boolean expression for it:
      - For the row 0 it will be --> (NOT(x) AND NOT(y) AND NOT(z))
@@ -63,8 +63,8 @@ We will start with a brief introduction of Boolean algebra, and learn how Boolea
      - For the row 4 it will be --> (x AND NOT(y) AND NOT(z))
  - NOTICE THAT EACH ONE OF THESE EXPRESSIONS IS UNIQUE TO ITSELF, MEANS THE FUNCTION WILL NEVER GENERATE 1 IF IT APPLIED TO ANY OTHER ROW.
  - Now how do we combine them ?? we will use **OR** .
- - ![screenshot-20250730-194901.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250730-194901.png)
- - ![screenshot-20250730-205810.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250730-205810.png)
+ - ![screenshot-20250730-194901.png](/enveloppe/pictures_folder/screenshot-20250730-194901.png)
+ - ![screenshot-20250730-205810.png](/enveloppe/pictures_folder/screenshot-20250730-205810.png)
 
 ### Expressing boolean functions
 * Any Boolean function can be represented using an expression containing AND and NOT operation.
@@ -73,8 +73,8 @@ We will start with a brief introduction of Boolean algebra, and learn how Boolea
 
 * There is 1 operation that can be used to express and compute any function by itself, it's called **NAND**
 * NAND: NOT, AND ==> **NOT(x AND y)**
-* ![screenshot-20250730-213813.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250730-213813.png)
-* ![screenshot-20250730-214132.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250730-214132.png)
+* ![screenshot-20250730-213813.png](/enveloppe/pictures_folder/screenshot-20250730-213813.png)
+* ![screenshot-20250730-214132.png](/enveloppe/pictures_folder/screenshot-20250730-214132.png)
 * We will use **NAND** gates to compute everything and build the complex system just by using it.
 
 
@@ -90,12 +90,12 @@ We will start with a brief introduction of Boolean algebra, and learn how Boolea
 	* **Composite** (Mux, Adder, ...)
 
 * *Note:* 
-	* There is inputs pins, output pins, internal ones.![Screenshot_20250902_031010.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/Screenshot_20250902_031010.png)
+	* There is inputs pins, output pins, internal ones.![Screenshot_20250902_031010.png](/enveloppe/pictures_folder/Screenshot_20250902_031010.png)
 
 #### Elementary logic gates
 
 * **NAND**
-![screenshot-20250730-215237.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250730-215237.png)
+![screenshot-20250730-215237.png](/enveloppe/pictures_folder/screenshot-20250730-215237.png)
 ### How is Nand primitive while it's using And ?
 
 That’s a really sharp observation 👌 and it touches the heart of **logic design**.
@@ -109,11 +109,11 @@ When we say **NAND is a primitive gate**, we don’t mean it’s literally built
 
 
 * **AND**
-![screenshot-20250730-215405.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250730-215405.png)
+![screenshot-20250730-215405.png](/enveloppe/pictures_folder/screenshot-20250730-215405.png)
 * **OR**
-![screenshot-20250730-215408.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250730-215408.png)
+![screenshot-20250730-215408.png](/enveloppe/pictures_folder/screenshot-20250730-215408.png)
 * **NOT**
-![screenshot-20250730-215412.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250730-215412.png)
+![screenshot-20250730-215412.png](/enveloppe/pictures_folder/screenshot-20250730-215412.png)
 
 * We can use these elementary gates to create composite ones.
 
@@ -121,12 +121,12 @@ When we say **NAND is a primitive gate**, we don’t mean it’s literally built
 
 #### Composite logic gate - Gate Interface/ Gate Implementation
 * For example we can make this **three AND logic gate**, the first picture describes the **gate interface**, the second one describes the **details/ implementation** of it.
-![screenshot-20250730-215922.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250730-215922.png)
+![screenshot-20250730-215922.png](/enveloppe/pictures_folder/screenshot-20250730-215922.png)
 
 
 
 #### Circuit implementations 
-![screenshot-20250730-220520.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/screenshot-20250730-220520.png)
+![screenshot-20250730-220520.png](/enveloppe/pictures_folder/screenshot-20250730-220520.png)
 * *This is very important*: this course will not discuss the physical manners but instead it will focus more on something like the right bottom of the screen (Theories and Implementation).
 
 
@@ -146,8 +146,8 @@ When we say **NAND is a primitive gate**, we don’t mean it’s literally built
 	1) Good documentation.
 	2) Good names.
 ### Design: from requirements to gate diagram
-* ![Screenshot_20250810_114710.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/Screenshot_20250810_114710.png)
-* ![Screenshot_20250810_115540 1.png](OSSU/core_system/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/enveloppe/pictures_folder/Screenshot_20250810_115540%201.png)
+* ![Screenshot_20250810_114710.png](/enveloppe/pictures_folder/Screenshot_20250810_114710.png)
+* ![Screenshot_20250810_115540 1.png](/enveloppe/pictures_folder/Screenshot_20250810_115540%201.png)
 
 * HDL for this will be:
 ```vhdl
