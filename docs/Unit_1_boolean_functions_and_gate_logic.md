@@ -7,12 +7,12 @@ published:
 We will start with a brief introduction of Boolean algebra, and learn how Boolean functions can be physically implemented using logic gates. We will then learn how to specify gates and chips using a Hardware Description Language (HDL), and how to simulate the behavior of the resulting chip specifications using a hardware simulator. This background will set the stage for Project 1, in which you will build, simulate, and test 15 elementary logic gates. The chipset that you will build this module will be later used to construct the computer's Arithmetic Logic Unit (ALU) and memory system. This will be done in modules 2 and 3, respectively.
 
 * This unit have eight chapters and ends with a project:
-	1) [Unit 1.1 Boolean Logic](Unit_1_boolean_functions_and_gate_logic.md#unit-11-boolean-logic) 
-	2) [Unit 1.2 Boolean Functions Synthesis](Unit_1_boolean_functions_and_gate_logic.md#unit-12-boolean-functions-synthesis)
-	3) [Unit 1.3 Logic Gates](Unit_1_boolean_functions_and_gate_logic.md#unit-13-logic-gates)
-	4) [Unit 1.4: Hardware Description Language](Unit_1_boolean_functions_and_gate_logic.md#unit-14-hardware-description-language)
-	5) [Unit 1.5: Hardware Simulation](Unit_1_boolean_functions_and_gate_logic.md#unit-15-hardware-simulation)
-	6) [Unit 1.6: Multi-Bit Buses](Unit_1_boolean_functions_and_gate_logic.md#unit-16-multi-bit-buses)
+	1) [Unit 1.1 Boolean Logic](Unit_1_boolean_functions_and_gate_logic.md##unit-11-boolean-logic) 
+	2) [Unit 1.2 Boolean Functions Synthesis](Unit_1_boolean_functions_and_gate_logic.md##unit-12-boolean-functions-synthesis)
+	3) [Unit 1.3 Logic Gates](Unit_1_boolean_functions_and_gate_logic.md##unit-13-logic-gates)
+	4) [Unit 1.4: Hardware Description Language](Unit_1_boolean_functions_and_gate_logic.md##unit-14-hardware-description-language)
+	5) [Unit 1.5: Hardware Simulation](Unit_1_boolean_functions_and_gate_logic.md##unit-15-hardware-simulation)
+	6) [Unit 1.6: Multi-Bit Buses](Unit_1_boolean_functions_and_gate_logic.md##unit-16-multi-bit-buses)
 
 
 

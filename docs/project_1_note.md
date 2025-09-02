@@ -12,7 +12,7 @@ in a **2-to-1 MUX**:
 * `Number of Inputs = 2^n number of selector ` and `Number of selectors = log2(number of inputs)`
 
 
-![Screenshot_20250902_025313.png](/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/pictures_folder/Screenshot_20250902_025313.png)
+![Screenshot_20250902_025313](/pictures_folder/Screenshot_20250902_025313.png)
 
 * Equation:
 `Y=(S′ ⋅ I0)+(S . I1) ---> (Not S and I0) or (S and I1)`
@@ -41,7 +41,7 @@ Break it down:
 * `Number of output = 2^n number of selector ` and `Number of selectors = log2(number of output)`
 
 
-* ![Screenshot_20250902_025149.png](/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/pictures_folder/Screenshot_20250902_025149.png)
+* ![Screenshot_20250902_025149](/pictures_folder/Screenshot_20250902_025149.png)
 * So:
 	* Say: `Input, output1,output2, S (selector)`
 		* If S == 0:
@@ -56,7 +56,7 @@ Break it down:
 
 ### 4-to-1 MUX
 
-* ![Screenshot_20250901_231944.png](/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/pictures_folder/Screenshot_20250901_231944.png)
+* ![Screenshot_20250901_231944](/pictures_folder/Screenshot_20250901_231944.png)
 *  Logic equation:
 	* `Y=(S1′⋅S0′⋅I0)+(S1′⋅S0⋅I1)+(S1⋅S0′⋅I2)+(S1⋅S0⋅I3)`
 * If u notice from the table that sel2 is 0,1,0,1 , so you can do the first two together and last two together, then you can combine the result with the sel1 .
@@ -83,8 +83,8 @@ Mux16(a=ab, b=cd, sel=sel[1], out=out);
 
 ### DMUX4Way
 
-![Screenshot_20250902_024257.png](/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/pictures_folder/Screenshot_20250902_024257.png)
+![Screenshot_20250902_024257](/pictures_folder/Screenshot_20250902_024257.png)
 
 
 ### DMUX8Way
-![Screenshot_20250902_024650.png](/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/pictures_folder/Screenshot_20250902_024650.png)![Screenshot_20250902_025055.png](/Build-a-Modern-Computer-from-First-Principles-From-Nand-to-Tetris-Project-Centered-Course-Tets/pictures_folder/Screenshot_20250902_025055.png)
+![Screenshot_20250902_024650](/pictures_folder/Screenshot_20250902_024650.png)![Screenshot_20250902_025055](/pictures_folder/Screenshot_20250902_025055.png)
